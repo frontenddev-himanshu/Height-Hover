@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: darkcyan;
+}
+
+/* container */
+.container {
+    width: 100%;
+    height: 50vh;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* boxes */
+.h-box {
+    width: 400px;
+    height: 250px;
+    background-color: darkblue;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(83, 83, 83, 0.338);
+    transition: .2s linear;
+    position: relative;
+}
+
+/* box hover */
+.h-box:hover {
+   height: 350px;
+}
+
+.nature {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.244);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
